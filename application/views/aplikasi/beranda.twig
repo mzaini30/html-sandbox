@@ -1,5 +1,7 @@
 {% extends 'layout/default.twig' %}
 
 {% block isi %}
-    
+    {% for x in data %}
+        {{ x.nama }}
+    {% endfor %}
 {% endblock %}
