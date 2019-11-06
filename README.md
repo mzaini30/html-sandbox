@@ -1,2 +1,11 @@
-# html-sandbox
-Repositori yang berisi dengan aplikasi HTML Sandbox berbasis PHP
+# Menjalankan
+
+```bash
+php -S localhost:9099
+```
+
+# Memanggil View Twig
+
+```php
+$this->twig->display('tes_twig/hello_world');
+```
