@@ -1,7 +1,9 @@
 {% extends 'layout/default.twig' %}
 
 {% block isi %}
-    {% for x in data %}
-        {{ x.nama }}
-    {% endfor %}
+	<div class="list-group">
+	    {% for x in data %}
+	    	<a href="#!" class="list-group-item">{{ x.nama }}</a>
+	    {% endfor %}
+	</div>
 {% endblock %}
