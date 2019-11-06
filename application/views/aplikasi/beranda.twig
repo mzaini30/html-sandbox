@@ -3,7 +3,7 @@
 {% block isi %}
 	<div class="list-group">
 	    {% for x in data %}
-	    	<a href="#!" class="list-group-item">{{ x.nama }}</a>
+	    	<a href="/tampil/{{ x.id }}" class="list-group-item">{{ x.nama }}</a>
 	    {% endfor %}
 	</div>
 {% endblock %}

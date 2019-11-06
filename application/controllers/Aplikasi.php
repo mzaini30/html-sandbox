@@ -6,4 +6,8 @@ class Aplikasi extends MY_Controller {
 		$data = $this->db->order_by('nama')->get('aplikasi')->result();
 		$this->twig->display('aplikasi/beranda', compact('data'));
 	}
+
+	public function tampil($id){
+		$this->twig->display('aplikasi/tampil');
+	}
 }
